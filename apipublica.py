@@ -2,7 +2,11 @@ import requests
 import urllib.parse
 
 route_url = "https://graphhopper.com/api/1/route?"
+<<<<<<< HEAD
 key = "9827a6d7-7c14-43d7-be2b-3ea92c2c023c"  # Reemplaza esto con tu clave API
+=======
+key = "e35861dd-b8d6-4808-bf37-1f835a44cf05"  # Reemplaza esto con tu clave API
+>>>>>>> 2a9d781a72f09a5cf1d47f29a79ec4a5f9b75a50
 
 def geocoding(location, key):
     geocode_url = "https://graphhopper.com/api/1/geocode?"
@@ -94,4 +98,7 @@ while True:
     if distancia is not None and duracion is not None and instrucciones is not None:
         narrativa = generar_narrativa(origen, destino, distancia, duracion, instrucciones)
         print(narrativa)
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2a9d781a72f09a5cf1d47f29a79ec4a5f9b75a50
